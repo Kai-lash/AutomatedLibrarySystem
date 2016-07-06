@@ -18,6 +18,7 @@ import javax.servlet.http.HttpSession;
 import util.CharValidation;
 import util.InitializeConnection;
 
+/* Servlet to handle book request from the user*/
 public class servlet_bookRequest extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
