@@ -99,8 +99,6 @@ public class servlet_login extends HttpServlet {
 			msg = "Password cannot be blank !";
 			response.sendRedirect("jsp_memlogin.jsp?msg=" + msg);
 		} else {
-			// business logic will be applied here
-
 			InitializeConnection inc = new InitializeConnection();
 			Connection con = inc.initConnect();
 
