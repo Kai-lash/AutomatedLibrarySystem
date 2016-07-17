@@ -91,7 +91,7 @@ public class servlet_login extends HttpServlet {
 				: request.getParameter("password");
 		String remember = request.getParameter("remember") == null ? ""
 				: request.getParameter("remember");
-		System.out.println("++++++" + remember);
+		
 		if (loginId.equals("")) {
 			msg = "Login ID cannot be blank !";
 			response.sendRedirect("jsp_memlogin.jsp?msg=" + msg);
